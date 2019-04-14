@@ -25,13 +25,13 @@
 	display: none;
 }
 }
-@media screen and (min-width: 320px) and (max-width: 768px){
-	.menuMoble{
+@media screen and (min-width: 200px) and (max-width: 400px){
+	.menuMobile{
 		display:block;
 		
 	}
 }
-@media screen and (min-width: 320px) and (max-width: 768){
+@media screen and (min-width: 200px) and (max-width: 400px){
 	.menu{
 		display:none;
 		
