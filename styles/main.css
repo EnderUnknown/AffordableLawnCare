@@ -46,7 +46,9 @@
 	
    color: #7CFC00;
    background-color: rgba(1,150,32,.85);
-	
+   position: absolute;
+   bottom:0;
+   width: 100%;
 }
 
 .size-small{
