@@ -1,0 +1,104 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(1, 150, 32, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #fff;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #7CFC00;
+  text-decoration: none;
+}
+
+@media (max-width: 70em) {
+.sm70{
+	display: none;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+	.menuMoble{
+		display:block;
+		
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 768){
+	.menu{
+		display:none;
+		
+	}
+}
+.imageBackground{
+	background-image: url("src/background.jpg");
+	background-size: cover;
+}
+
+.footer-lawnmowing{
+	
+   color: #7CFC00;
+   background-color: rgba(1,150,32,.85);
+	
+}
+
+.size-small{
+	font-size: 10px;
+}
+
+.font-header{
+	font-size: 18px;
+	
+}
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -10%;
+  width: 300px;
+  height: 540px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+.product-device2 {
+  position: absolute;
+  left: 10%;
+  bottom: 0%;
+  width: 240px;
+  height: 440px;
+  -webkit-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+}
+
+.flipImage{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+}
+
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
