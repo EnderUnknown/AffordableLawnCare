@@ -37,18 +37,23 @@
 		
 	}
 }
-.imageBackground{
-	background-image: url("src/background.jpg");
+.bgLawn{
+	display: block;
+	background: url(background.jpg) no-repeat;
 	background-size: cover;
+}
+.blurLawn{
+   background-color: rgba(225,225,225,.40);
+   -webkit-backdrop-filter: saturate(100%) blur(5px);
+   backdrop-filter: saturate(100%) blur(5px);	
 }
 
 .footer-lawnmowing{
 	
    color: #7CFC00;
    background-color: rgba(1,150,32,.85);
-   position: absolute;
-   bottom:0;
-   width: 100%;
+   -webkit-backdrop-filter: saturate(180%) blur(20px);
+   backdrop-filter: saturate(180%) blur(20px);
 }
 
 .size-small{
