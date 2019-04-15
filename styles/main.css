@@ -5,7 +5,7 @@
 /*
  * Custom translucent site header
  */
-
+ 
 .site-header {
   background-color: rgba(1, 150, 32, .85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -25,15 +25,29 @@
 	display: none;
 }
 }
-@media screen and (min-width: 200px) and (max-width: 400px){
-	.menuMobile{
-		display: block;
+@media (min-width: 70em){
+	.menuMoble{
+		display: none;
 		
 	}
 }
-@media screen and (min-width: 200px) and (max-width: 400px){
+.btn-lawn{
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,0);
+    
+}
+.dropdown .dropdown-menu a{color: #7CFC00; background-color: rgba(1,150,32,1) ;text-decoration: none;}
+.dropdown-menu .dropdown-item {width: 100%; padding: 10px 5px;}
+.container .dropdown .dropdown-menu a:hover
+{
+  color: #fff;
+  background-color: #b91773;
+  border-color: #fff;
+}
+
+@media (max-width: 70em){
 	.menu{
-		display: none;
+		display:none;
 		
 	}
 }
@@ -42,11 +56,6 @@
 	background: url(background.jpg) no-repeat;
 	background-size: cover;
 }
-.blurLawn{
-   background-color: rgba(225,225,225,.40);
-   -webkit-backdrop-filter: saturate(100%) blur(5px);
-   backdrop-filter: saturate(100%) blur(5px);	
-}
 
 .footer-lawnmowing{
 	
@@ -54,6 +63,11 @@
    background-color: rgba(1,150,32,.85);
    -webkit-backdrop-filter: saturate(180%) blur(20px);
    backdrop-filter: saturate(180%) blur(20px);
+}
+.lawnBlur{
+   background-color: rgba(225,225,225,.40);
+   -webkit-backdrop-filter: saturate(100%) blur(5px);
+   backdrop-filter: saturate(100%) blur(5px);
 }
 
 .size-small{
