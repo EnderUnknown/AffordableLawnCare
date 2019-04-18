@@ -20,10 +20,11 @@
   text-decoration: none;
 }
 
-@media (max-width: 70em) {
-.sm70{
+@media (max-width: 48em) {
+.sm48{
 	display: none;
 }
+
 }
 @media (min-width: 70em){
 	.menuMobile{
