@@ -54,6 +54,10 @@
 	
 	
 }
+.greenerLine{
+	border-bottom: 6px solid rgba(1,150,32,1);	
+	
+}
 .bgGreen{
 	background-color: #2E8B57;
 }
