@@ -14,6 +14,12 @@
 		
 		<title>EnderTek Official Site</title>
 		
+		<script src="TemplateData/UnityProgress.js"></script>  
+		<script src="Build/UnityLoader.js"></script>
+		<script>
+	        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/EnderTek.json", {onProgress: UnityProgress});
+	        </script>
+		
 	</head>
 	
 	<body class="bgProject">
@@ -41,8 +47,14 @@
 			<p class="lead"><b><u>Downloads</b></u></p>
 			<a class="lead purpleLinkColor" href="https://affordablelawncaremn.com/tJDlLVCyc/EnderTek/EnderVaultv3.1.exe" target="_blank">EnderVault v3.1</a>
 			<h2 class="display-10 font-weight-normal">MTG Commander Utility</h2>
-			<a class ="lead purpleLinkColor" href="https://affordablelawncaremn.com/tJDlLVCyc/EnderTek/mtgUtil.html">Program</a>
-				
+			<div class="webgl-content">
+			   <div id="gameContainer" style="width: 960px; height: 600px"></div>
+			   <div class="footer">
+			   <div class="webgl-logo"></div>
+				<div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+				<div class="title">Commander Utility</div>
+			      </div>
+			    </div>
 		</div>
 	</div>
 	
