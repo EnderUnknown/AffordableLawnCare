@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+        <title>40k Attack Calculator</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="calculator">
+                <div id="result">
+                    <div id=percent>
+                        <p id="percent_value">10</p>
+                    </div>
+                    <div id=through>
+                        <p id="through_value">20</p>
+                    </div>
+                </div>
+                <div id="inputs">
+                    <div id="data_input">
+                        <label for="att">Attacks:</label>
+                        <input type="text" id = "att" name="att"><br><br>
+                        <label for="bs">Hit On:</label>
+                        <input type="text" id = "bs" name="bs"><br><br>
+                        <label for="w">Wound On:</label>
+                        <input type="text" id = "w" name="w"><br><br>
+                        <label for="s">Save On:</label>
+                        <input type="text" id = "s" name="s"><br><br>
+                    </div>
+                    <div id="buttons">
+                        <button class="do_action" id="do_calc">Calculate</button> <br>
+                        <button class="do_action" id="do_clear">Clear</button><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
