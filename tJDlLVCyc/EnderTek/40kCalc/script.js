@@ -34,13 +34,15 @@ function doCalc(){
 }
 
 function doClear(){
-    document.getElementById("percent_value").innerText = "";
-    document.getElementById("through_value").innerText="";
+    document.getElementById("percent_value").innerText = "Percent";
+    document.getElementById("through_value").innerText="Saves Failed";
     document.getElementById("att").value = "";
     document.getElementById("bs").value = "";
     document.getElementById("w").value = "";
     document.getElementById("s").value = "";
 }
+
+doClear();
 
 var calculate = document.getElementById("do_calc");
 calculate.addEventListener('click',function(){doCalc();});
